@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-// const API_URL = 'http://localhost:8080';
-const API_URL = 'https://nuclea-backend-184a4fac3b44.herokuapp.com';
+const API_URL = 'http://localhost:8080';
+// const API_URL = 'https://nuclea-backend-184a4fac3b44.herokuapp.com';
 
 export const addProject = async (data) => {
     try {
